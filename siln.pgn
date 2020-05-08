@@ -1,0 +1,14 @@
+[White "Baklan, V."]
+[Black "Tratar, M."]
+[EventDate "2007"]
+<fen>r3kb1r/2q2ppp/p3p3/1p6/3Q4/1BP1Bb2/PP3P1P/2KRR3 w</fen>
+1. Bg5 Bxd1 2. Bxe6 fxe6 3. Rxe6+ Be7 4. Rxe7+ Qxe7 5. Bxe7 Kxe7 6. Qxg7+
+e3-g5 f3:d1 b3:e6 f7:e6 e1:e6 f8-e7 e6:e7 c7:e7 g5:e7 e8:e7 d4:g7
+
+[White "Schlosser, P."]
+[Black "Baklan, V."]
+[Black "Tratar, M."]
+[EventDate "2007"]
+<fen>r1b2rk1/pp4pp/8/2pq4/3n4/P1Q2PP1/1P3KBP/R1BR4 b</fen>
+1... Bh3 2. Bh1 Rae8 3. Qd3 Qh5
+c8-h3 g2-h1 f8-e8 c3-d3 d5-h5

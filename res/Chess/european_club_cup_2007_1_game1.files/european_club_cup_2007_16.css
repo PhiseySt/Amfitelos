@@ -1,0 +1,42 @@
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+.hEvent {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.hPlayers {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.hAnnot {
+	FONT-WEIGHT: bold; FONT-SIZE: 3pt; COLOR: #000080; FONT-STYLE: italic; FONT-FAMILY: "Palatino Linotype", Arial
+}
+.VH {
+	FONT-WEIGHT: bold; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.VC {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.V0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.V1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.V2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.vardialog {
+	FONT-WEIGHT: bold; FONT-SIZE: 1pt; BACKGROUND: #000080; WIDTH: 100px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial
+}
+.autoplaydlg {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; BACKGROUND: #000080; WIDTH: 35px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial
+}
+.gamedialog {
+	FONT-WEIGHT: normal; FONT-SIZE: 1pt; BACKGROUND: #000080; WIDTH: 283px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial
+}

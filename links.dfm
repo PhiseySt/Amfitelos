@@ -1,0 +1,60 @@
+object Form7: TForm7
+  Left = 488
+  Top = 213
+  Width = 429
+  Height = 118
+  Caption = #1064#1072#1093#1084#1072#1090#1085#1099#1077' '#1089#1089#1099#1083#1082#1080
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 16
+    Width = 159
+    Height = 20
+    Caption = 'www.crestbook.com'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 216
+    Top = 20
+    Width = 178
+    Height = 13
+    Caption = #1064#1072#1093#1084#1072#1090#1085#1099#1081' '#1087#1088#1086#1077#1082#1090' '#1057#1077#1088#1075#1077#1103' '#1064#1080#1087#1086#1074#1072
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Top = 48
+    Width = 180
+    Height = 20
+    Caption = 'www.chesszone.net.ru'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 216
+    Top = 52
+    Width = 131
+    Height = 13
+    Caption = #1064#1082#1086#1083#1072' '#1096#1072#1093#1084#1072#1090' ChessZone'
+    OnClick = Label4Click
+  end
+end

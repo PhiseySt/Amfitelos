@@ -1,0 +1,1297 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0074)http://online.crestbook.com/viewer/2007/european_club_cup_2007_1_game1.htm -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251"><LINK 
+href="../european_club_cup_2007_1_game1.files/european_club_cup_2007_1.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript1.1>
+<!--
+if(top.frames.length==0)location.replace("european_club_cup_2007_1.htm");
+
+	var x="x";
+	var goback=-1;
+	var goahead=-2;
+	var idx=0;
+	var bidx=0;
+	var lastidx=new Array(0, 0);
+	var lastcolor="#000000";
+	var movebgcol="#E6E6E6";
+	var movecol="#191919";
+	var bgcolor="#FFFFFF";
+	var maxvar=0;
+	var engl=1;
+	var nbgames = 1;
+	var diagram=parent.dia;
+	var timer=null;
+	var dummy2=0;
+	var dummy3=0;
+
+	zg=new Array(
+"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR 1 x","5236","1228","6245","0118","6125","0816","2532","0621","60626361","0512","6160","0925","3241","04060705","5042","1119","5547","0209","5135","0504",
+"5751","1205","3527","1801","5161","0111","4555","1126","4150","1018","4933","2611","2718pAA","0918PAA","5830","0310","3021nAA","1121BAA","5538","2138NAA","4738nAA",
+"b22 307 45 158 204 272 ","1809","r3rbk1/2q2ppp/p1bp4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 21 42","0402","5041","1624","w23 93 51 76 ","3324pAA","r1r2bk1/2q2ppp/2bp4/pp2p3/1P2P1P1/1BP5/P4PP1/R2QRNK1 23 48","5658","0512","5945","1230","5859","2432","4127","1827BAA","5927bAA","1042PAA","4542qAA","0242QAA",
+"2725pAA","1523","6146","4250","6052","5058","6255","3037","2524","0002","2432pAA","1430","r1r2bk1/2q2ppp/2bp4/pp2p3/1P2P1P1/1BP5/P4PP1/R2QRNK1 23 48","6044","0512","5945","1230","4443","2432","4127","1827BAA",
+"4327bAA","0001","2743","1034","6146","1422","4652","0218","r1r2bk1/2q2ppp/2bp4/Pp2p3/4P1P1/1BP5/P4PP1/R2QRNK1 23 49","b24 132 96 ","1024PAA","r1r2bk1/2q2ppp/2bp4/Pp2p3/4P1P1/1BP5/P4PP1/R2QRNK1 23 49","0512","5945","1804","6044","1024PAA","6146","1422","4443","0226",
+"4652","2410","4544","0411","4423","1138PAA","4113pAA","0607","1322pAA","1205","2330","3852NAA","4347","5234","2215pAA","1015BAA","3021","0706","4715qAA","0615RAA","2129",
+"1514","2911","3413","5657","0048PAA","r1r2bk1/5ppp/2bp4/qp2p3/4P1P1/1BP5/P4PP1/R2QRNK1 24 94","6044","0008","5945","0810","5658","1804","4443","0512","5850","1018","6146","1422","4652","1230","4127",
+"1826","5049","2410","4957","0418","2741","0203","5246","3037","4652","r3rbk1/2q2ppp/p1bp4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 21 42","1009","5943","0002","5041","1811","6144","1120","4427","0218","4832",
+"1802","3225pAA","1625PAA","5624","2011","6056","0200","2717","0024RAA","3324rAA","b32 194 181 ","1118","4rbk1/1q1b1ppp/1N1p4/Pp2p3/4P1P1/1BPQ4/5PP1/R5K1 31 178","1138PAA","4327","0910","2416","3820","2725pAA","1042PAA","5657",
+"0412","1727","2027NAA","4127bAA","4rbk1/1q3ppp/1Nbp4/Pp2p3/4P1P1/1BPQ4/5PP1/R5K1 32 179","4127","1827BAA","1727bAA","0402","2416","0908","4325pAA","0201","2501rAA","r3rbk1/2q2ppp/p1bp4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 21 42","0002","5041","1811","5658","0512","6144",
+"1230","4427","1001","5850","0218","5446","0102","5345","1120","5943","3003","6254","0209","6063","0312","5461","0402","5055","1523","4344","0605",
+"3830","b36 260 235 240 ","2331","2r2k2/1q2bpp1/p1rpb2p/1p1Np1P1/1P2P3/1BP1QPP1/P6R/5K1R 35 232","1230PAA","4430bAA","2330QAA","5507","2r2k2/1q2bpp1/p1rpb2p/1p1Np1P1/1P2P3/1BP1QPP1/P6R/5K1R 35 232","2027NAA","3023pAA","2741BAA","2314pAA","0504","w38 253 248 ","5507","2r1k3/1q2bpP1/p1rp4/1p2p3/1P2P3/1bP1QPP1/P6R/5K1R 38 245","1406Q","0411","0615","1842PAA",
+"2r1k2R/1q2bpP1/p1rp4/1p2p3/1P2P3/1bP1QPP1/P7/5K1R 38 246","0411","4841bAA","1842PAA","4442rAA","0242QAA","1406Q","2r2k2/1q2bpp1/p1rpb3/1p1Np1Pp/1P2P3/1BP1QPP1/P6R/5K1R 36 233","5531pAA","0504","3107","0411","0702rAA","1102RAA","6307","0211","3022","1322PAA","2712bAA","r3rbk1/2q2ppp/p1bp4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 21 42","0512",
+"5945","1811","5041","1120","6144","1042PAA","4427","4245QAA","5445qAA","0002","4832","1230","3225pAA","1625PAA","5608","0200","0800rAA","0400RAA","2710","0001","1020bAA",
+"1320NAA","4120pAA","0605","6056","0512","2027","3051","5608","1221","0813","2122","1309","r3rbk1/1bq2ppp/p2p4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 22 43","w22 362 310 ","6044","r3rbk1/1bq2ppp/p2p4/1p2p3/1P2P1P1/2P5/P1B2PP1/R2QRNK1 22 43","5945","0002","5041","b24 321 316 ","1927",
+"2r1rbk1/1bq2ppp/p2p4/1p2p3/1P2P1P1/1BP2Q2/P4PP1/R3RNK1 23 313","1042PAA","4513pAA","0607","1306","2r1rbk1/1bq2ppp/p7/1p1pp3/1P2P1P1/1BP2Q2/P4PP1/R3RNK1 24 314","4127pAA","0927BAA","3627bAA","1042PAA","4840","4245QAA","5445qAA","1321","6144","1422","5658","0613","6059","0519","6254",
+"1312","5818","0218RAA","2718rAA","1220","4427","0402","2721pAA","1933PAA","w36 360 348 ","5919","2r5/7p/p1P1kNp1/1p2p3/1b4P1/P4P2/5PK1/3R4 36 345","4033bAA","2021NAA","5919","2112","1911","1220","1115pAA","0218PAA","1563",
+"1834","6356","2r5/7p/p1PRkNp1/1p2p3/1b4P1/P4P2/5PK1/8 36 346","3319RAA","r3rbk1/1bq2ppp/p2p4/1p2p3/1P2P1P1/2P1R3/P1B2PP1/R2Q1NK1 22 308","b23 379 365 ","0512","r3rbk1/1bq2ppp/p2p4/1p2p3/1P2P1P1/2P1R3/P1B2PP1/R2Q1NK1 22 308","1624","5041","0512","w24 374 371 ","5943","r3r1k1/1bq1bppp/3p4/pp2p3/1P2P1P1/1BP1R3/P4PP1/R2Q1NK1 24 368","4445","0936PAA","r3r1k1/1bq1bppp/3p4/pp2p3/1P2P1P1/1BPQR3/P4PP1/R4NK1 24 369","1230","4445","0405","6144",
+"r3r1k1/1bq1bppp/p2p4/1p2p3/1P2P1P1/2P1R3/P1B2PP1/R2Q1NK1 23 363","5041","b24 385 383 ","1230","r3r1k1/1bq1bppp/p2p4/1p2p3/1P2P1P1/1BP1R3/P4PP1/R2Q1NK1 23 380","1624","r3r1k1/1bq2ppp/p2p4/1p2p1b1/1P2P1P1/1BP1R3/P4PP1/R2Q1NK1 24 381","4445","b25 392 389 ","0405","r3r1k1/1bq2ppp/p2p4/1p2p1b1/1P2P1P1/1BP2R2/P4PP1/R2Q1NK1 24 386","0936PAA","4513pAA","r4rk1/1bq2ppp/p2p4/1p2p1b1/1P2P1P1/1BP2R2/P4PP1/R2Q1NK1 25 387","w25 397 395 ","5952","r4rk1/1bq2ppp/p2p4/1p2p1b1/1P2P1P1/1BP2R2/P4PP1/R2Q1NK1 25 387","4127","r4rk1/1bq2ppp/p2p4/1p2p1b1/1P2P1P1/1BP2R2/P3QPP1/R4NK1 25 393","0902","5659",
+"b27 420 402 ","0220","r1b2rk1/2q2ppp/p2p4/1p2p1b1/1P2P1P1/1BP2R2/P3QPP1/3R1NK1 26 399","0238PAA","4513pAA","b28 412 407 ","0513RAA","r4rk1/2q2Rpp/p2p4/1p2p1b1/1P2P1b1/1BP5/P3QPP1/3R1NK1 27 404","3852QAA","1310qAA","0607","5919pAA","r5k1/2q2rpp/p2p4/1p2p1b1/1P2P1b1/1BP5/P3QPP1/3R1NK1 28 405","5238bAA","1523","3831","0003","6146","0605","3122","r4rk1/2q2ppp/p2pb3/1p2p1b1/1P2P1P1/1BP2R2/P3QPP1/3R1NK1 27 400",
+"6144","b28 561 424 ","3044NAA","r4rk1/2q2ppp/p2pb3/1p2p1b1/1P2P1P1/1BP1NR2/P3QPP1/3R2K1 27 421","1042PAA","4427","b29 432 429 ","4218","r4rk1/5ppp/p2pb3/1p1Np1b1/1P2P1P1/1Bq2R2/P3QPP1/3R2K1 28 426","4202","2717","r4rk1/5ppp/p1qpb3/1p1Np1b1/1P2P1P1/1B3R2/P3QPP1/3R2K1 29 427","w29 442 435 ","5244","r4rk1/5ppp/p1qpb3/1p1Np1b1/1P2P1P1/1B3R2/P3QPP1/3R2K1 29 427","4542","1809","4210","0901","1018","0503",
+"r4rk1/5ppp/p1qpb3/1p1Np1b1/1P2P1P1/1B2QR2/P4PP1/3R2K1 29 433","b30 461 445 452 ","3003","r4rk1/5ppp/p1qpb3/1p1Np1b1/1P2P1P1/1B2QR2/P4PP1/3R2K1 29 433","2027NAA","3627bAA","3044QAA","2718qAA","4435","4127","r4rk1/5ppp/p1qpb3/1p1Np1b1/1P2P1P1/1B2QR2/P4PP1/3R2K1 29 433","3044QAA","2712","0607","1218qAA","2041BAA","4841bAA","4417","5919pAA","r2b1rk1/5ppp/p1qpb3/1p1Np3/1P2P1P1/1B2QR2/P4PP1/3R2K1 30 443","3830",
+"b31 532 465 ","0002","r2b1rk1/5ppp/p1qpb3/1p1Np1P1/1P2P3/1B2QR2/P4PP1/3R2K1 30 462","2038","2721","1421NAA","3021pAA","0607","4423","0506","4113pAA","1836PAA","1306rAA","3622","w36 507 479 ","2322qAA","r2b2Bk/7p/p2p1PqQ/1p2p3/1P4b1/5R2/P4PP1/3R2K1 36 476","2305","2206BAA","0506qAA","0706QAA",
+"4546","1531","5345","0317","w40 502 490 ","6255","r5k1/8/pb1p1P2/1p2p2p/1P4b1/5PR1/P5P1/3R2K1 40 487","6261","1735","4538bAA","3138PAA","6152","0613","5961","0006","4640","0600","6163","r5k1/8/pb1p1P2/1p2p2p/1P4b1/5PR1/P5PK/3R4 40 488","1753","4538bAA",
+"5346RAA","5546bAA","r2b2Bk/7p/p2p1PQ1/1p2p3/1P4b1/5R2/P4PP1/3R2K1 36 477","1522QAA","0627","3845RAA","2745bAA","0002","5919pAA","0258","6255","0310","1916pAA","2836","5446","3645BAA","1600","0715","2113","1019","1305Q",
+"1905QAA","0005bAA","5850","0545pAA","5048PAA","5547","2rb1rk1/5ppp/p1qpb3/1p1Np1P1/1P2P3/1B2QR2/P4PP1/3R2K1 31 463","2721","0607","2115pAA","0317","1505rAA","1744QAA","0520bAA","b35 551 542 ","1320NAA","2r4k/5pp1/p1qpN3/1p2p1P1/1P2P3/1B2bR2/P4PP1/3R2K1 34 539","1811","2026","4426NAA","3326bAA",
+"0226PAA","3022","1322PAA","5919pAA","2r4k/6p1/p1qpp3/1p2p1P1/1P2P3/1B2bR2/P4PP1/3R2K1 35 540","4547","0706","4120pAA","0605","2002rAA","1850","5961","4430PAA","0216pAA","r4rk1/2q2ppp/p2pb3/1p2p3/1P2P1P1/1BP1bR2/P3QPP1/3R2K1 28 422","4544bAA","1624","w29 574 566 ","4120bAA","r4rk1/2q2ppp/3pb3/pp2p3/1P2P1P1/1BP1R3/P3QPP1/3R2K1 29 563","5225pAA",
+"2038PAA","5345","3820","4120bAA","1320BAA","4840","r4rk1/2q2ppp/3pB3/pp2p3/1P2P1P1/2P1R3/P3QPP1/3R2K1 29 564","1320BAA","w30 583 578 ","4840","r4rk1/2q3pp/3pp3/pp2p3/1P2P1P1/2P1R3/P3QPP1/3R2K1 30 575","5225pAA","2433PAA","2533pAA","0048PAA","r4rk1/2q3pp/3pp3/pp2p3/1P2P1P1/P1P1R3/4QPP1/3R2K1 30 576","2433PAA","4233pAA","1011","w32 658 589 ","3830",
+"r4rk1/3q2pp/3pp3/1p2p3/1P2P1P1/P3R3/4QPP1/3R2K1 32 586","4442","0502","4226","0226RAA","3326rAA","0040PAA","w35 602 598 ","5919pAA","6k1/3q2pp/3pp3/1pP1p3/4P1P1/r7/4QPP1/3R2K1 35 595","2619pAA","4016","5251","6k1/3q2pp/3Rp3/1pP1p3/4P1P1/r7/4QPP1/6K1 35 596","4056","6255","1112","5446","1230","w38 639 610 ","1959",
+"6k1/6pp/3Rp3/1pP1p1q1/4P1P1/6P1/4QP1K/r7 38 607","1920pAA","1422","5244","3038PAA","2004","b41 623 618 ","0614","4R1k1/7p/6p1/1pP1p3/4P1q1/4Q1P1/5P1K/r7 40 615","0613","0428pAA","3859","4437","4R3/6kp/6p1/1pP1p3/4P1q1/4Q1P1/5P1K/r7 41 616","w41 629 626 ","0412","4R3/6kp/6p1/1pP1p3/4P1q1/4Q1P1/5P1K/r7 41 616","0428pAA","3859","8/4R1kp/6p1/1pP1p3/4P1q1/4Q1P1/5P1K/r7 41 624","1421",
+"1215pAA","3859","5554","5962","5445","6259","4554","5962","6k1/6pp/4p3/1pP1p1q1/4P1P1/6P1/4QP1K/r2R4 38 608","5659RAA","5259rAA","3012","2618","0613","5950","2533","1810","3341","5042","4149","1002Q",
+"4957q","4245","1221","0211","1305","4540","r4rk1/3q2pp/3pp3/1p2p1P1/1P2P3/P3R3/4QPP1/3R2K1 32 587","0002","4443","0218","w34 671 664 ","4351","5rk1/3q2pp/2rpp3/1p2p1P1/1P2P3/P2R4/4QPP1/3R2K1 34 661","5251","1113","5345","1308","6255","0503","5rk1/3q2pp/2rpp3/1p2p1P1/1P2P3/P7/3RQPP1/3R2K1 34 662","b35 676 674 ",
+"1816","5rk1/3q2pp/2rpp3/1p2p1P1/1P2P3/P7/3RQPP1/3R2K1 34 662","0501","5rk1/3q2pp/r2pp3/1p2p1P1/1P2P3/P7/3RQPP1/3R2K1 35 672","4032","1632PAA","5119pAA","1113","w37 707 683 ","1903","5rk1/5qpp/3Rp3/1p2p1P1/rP2P3/8/4QPP1/3R2K1 37 680","5957","b38 694 687 ","3208","5rk1/5qpp/3Rp3/1p2p1P1/rP2P3/8/4QPP1/1R4K1 37 684","3200","5761","1312","6159","1230PAA","1920pAA",
+"5rk1/r4qpp/3Rp3/1p2p1P1/1P2P3/8/4QPP1/1R4K1 38 685","w38 702 697 ","1917","5rk1/r4qpp/3Rp3/1p2p1P1/1P2P3/8/4QPP1/1R4K1 38 685","5225pAA","1353PAA","6255","0848","5rk1/r4qpp/1R2p3/1p2p1P1/1P2P3/8/4QPP1/1R4K1 38 695","0809","1709rAA","1309RAA","5758","3R1rk1/5qpp/4p3/1p2p1P1/rP2P3/8/4QPP1/3R2K1 37 681","3233PAA","w38 733 711 ","5911","3R1rk1/5qpp/4p3/1p2p1P1/1r2P3/8/4QPP1/3R2K1 38 708","5244","3335","5935rAA",
+"2835RAA","4435pAA","1310","0305rAA","0605RAA","3533","0513","3325pAA","1058","w44 729 726 ","6255","8/5kpp/4p3/1Q4P1/4P3/8/5PP1/2q3K1 44 723","2561","5830PAA","8/5kpp/4p3/1Q4P1/4P3/8/5PPK/2q5 44 724","5837","5562","3736PAA","3R1rk1/3R1qpp/4p3/1p2p1P1/1r2P3/8/4QPP1/6K1 38 709","b39 745 736 ","1337",
+"3R1rk1/3R1qpp/4p3/1p2p1P1/1r2P3/8/4QPP1/6K1 38 709","3357","6255","1337","5446","3730PAA","0305rAA","0605RAA","5554","3R1rk1/3R2pp/4p3/1p2p1P1/1r2Pq2/8/4QPP1/6K1 39 734","5248","b40 849 749 ","3357","3R1rk1/3R2pp/4p3/1p2p1P1/1r2Pq2/8/Q4PP1/6K1 39 746","3334","w40 786 753 ","0305rAA","3R1rk1/3R2pp/4p3/1p2p1P1/2r1Pq2/8/Q4PP1/6K1 40 750","5446","3736PAA","0305rAA",
+"0605RAA","6255","3435","1110","3559","5345","b45 776 765 ","3627","5k2/2R3pp/4p3/1p2p1P1/4q3/5PP1/Q6K/3r4 44 762","3645PAA","1002","0513","0210","1322","4820pAA","2231","2047","3122","4720","5k2/2R3pp/4p3/1p1qp1P1/8/5PP1/Q6K/3r4 45 763","4840",
+"0506","1014pAA","0614RAA","4012","1406","1204","0614","0412","5Rk1/3R2pp/4p3/1p2p1P1/2r1Pq2/8/Q4PP1/6K1 40 751","3705RAA","5446","b42 796 791 ","0607","5qk1/3R2pp/4p3/1p2p1P1/2r1P3/6P1/Q4P2/6K1 41 788","3436PAA","4820pAA","0607","1112","5q1k/3R2pp/4p3/1p2p1P1/2r1P3/6P1/Q4P2/6K1 42 789","4824","b43 816 800 ",
+"3402","5q1k/3R2pp/4p3/Qp2p1P1/2r1P3/6P1/5P2/6K1 42 797","3435","2425pAA","b44 812 805 ","3511RAA","5q1k/3R2pp/4p3/1Q2p1P1/3rP3/6P1/5P2/6K1 43 802","3536PAA","1109","3635","2528pAA","3503","2820pAA","5q1k/3r2pp/4p3/1Q2p1P1/4P3/6P1/5P2/6K1 44 803","2511rAA","0506","6254","2r2q1k/3R2pp/4p3/Qp2p1P1/4P3/6P1/5P2/6K1 43 798","2425pAA","0545","2526",
+"b45 832 822 ","0201","2r4k/3R2pp/4p3/2Q1p1P1/4P3/5qP1/5P2/6K1 44 819","0205","1143","b46 830 827 ","4513","5r1k/6pp/4p3/2Q1p1P1/4P3/3R1qP1/5P2/6K1 45 824","4543RAA","2605rAA","5r1k/5qpp/4p3/2Q1p1P1/4P3/3R2P1/5P2/6K1 46 825","4351","1r5k/3R2pp/4p3/2Q1p1P1/4P3/5qP1/5P2/6K1 45 820","2617","0106","1103","b47 841 838 ","4538","3R2rk/6pp/1Q2p3/4p1P1/4P3/5qP1/5P2/6K1 46 835","4536PAA","1701",
+"3R2rk/6pp/1Q2p3/4p1P1/4P1q1/6P1/5P2/6K1 47 836","0306rAA","0706RAA","1703","0613","0310","1322","1028pAA","3R1rk1/3R2pp/4p3/1p2p1P1/4Pq2/8/Q4PP1/1r4K1 40 747","4857rAA","3753PAA","6255","5339","5562","3953","6255","5339","5562","3953","6255","5339"
+	);
+
+	br=new Array(
+	new Array(
+	x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+	)
+	);
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript1.1 
+src="../european_club_cup_2007_1_game1.files/chess1.js"></SCRIPT>
+
+<SCRIPT language=JavaScript1.1>
+<!--
+function doinit() {
+if (diagram == null) diagram = parent.dia;
+if (diagram != null) {
+if ((diagram.dummy1 != null) && (diagram.dummy1 == 1)){
+dummy2=1;
+if(timer!=null){
+clearTimeout(timer);
+timer=null;}
+init();
+var san="0";
+var sanb="0";
+if (parent!=null)
+san=parent.location.href;
+var ian;
+ian=san.lastIndexOf('?');
+if (ian!=-1) {
+san=san.substring(ian+1, san.length);
+ian=san.lastIndexOf('_');
+if ((ian!=-1)&&(diagram.jumpdone!=null)&&(diagram.jumpdone<2)){
+diagram.jumpdone++;
+sanb=san.substring(0,ian);
+san=san.substring(ian+1,san.length);
+san++;san--;sanb++;
+if(diagram.jumpdone==1){
+if((sanb>1)&&(diagram.document.moves0!=null)&&(diagram.document.moves0.database!=null))
+diagram.gotopage(sanb,1);
+else if((sanb==1)&&(san>0)){
+diagram.jumpdone=2;
+c(0,san);}}
+else if(diagram.jumpdone==2){
+if(san>0)
+c(0,san);}}}
+return;}}
+timer=setTimeout("doinit()", 50)}
+
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY onkeydown=handleKey(window.event.keyCode) text=#000000 vLink=#000000 
+aLink=#000000 link=#000000 bgColor=#ffffff onload=doinit()>
+<P><FONT color=#000000>
+<SCRIPT language=JavaScript1.1>
+<!--
+document.write("<table BORDER=0><tr><td>")
+//-->
+</SCRIPT>
+<SPAN class=VH><SPAN class=hPlayers>Carlsen, Magnus (2765) - Navara, David 
+(2672)</SPAN><SPAN class=hEvent><BR>FIDE Grand Prix 2008/09 (Baku/Azerbaijan), 
+05/02/2008</SPAN><SPAN class=hAnnot><BR>[Лебедев Василий]</SPAN></SPAN><BR><BR>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><SPAN class=VC>Сначала - 
+      теория...<BR></SPAN><A id=l1 href="javascript:c(0,1)">1.e4</A> <A id=l2 
+      href="javascript:c(0,2)">e5</A> <A id=l3 
+      href="javascript:c(0,3)">2.Nf3</A> <A id=l4 
+      href="javascript:c(0,4)">Nc6</A> <A id=l5 
+      href="javascript:c(0,5)">3.Bb5</A> <A id=l6 
+      href="javascript:c(0,6)">a6</A> <A id=l7 
+      href="javascript:c(0,7)">4.Ba4</A> <A id=l8 
+      href="javascript:c(0,8)">Nf6</A> <A id=l9 
+      href="javascript:c(0,9)">5.<NOBR>O-O</NOBR></A> <A id=l10 
+      href="javascript:c(0,10)">Be7</A> <A id=l11 
+      href="javascript:c(0,11)">6.Re1</A> <A id=l12 
+      href="javascript:c(0,12)">b5</A> <A id=l13 
+      href="javascript:c(0,13)">7.Bb3</A> <A id=l14 
+      href="javascript:c(0,14)"><NOBR>O-O</NOBR></A> <A id=l15 
+      href="javascript:c(0,15)">8.c3</A> <A id=l16 
+      href="javascript:c(0,16)">d6</A> <A id=l17 
+      href="javascript:c(0,17)">9.h3</A> <A id=l18 
+      href="javascript:c(0,18)">Bb7</A> <A id=l19 
+      href="javascript:c(0,19)">10.d4</A> <A id=l20 
+      href="javascript:c(0,20)">Re8</A> <A id=l21 
+      href="javascript:c(0,21)">11.Nbd2</A> <A id=l22 
+      href="javascript:c(0,22)">Bf8</A> <A id=l23 
+      href="javascript:c(0,23)">12.d5</A> <A id=l24 
+      href="javascript:c(0,24)">Nb8</A> <A id=l25 
+      href="javascript:c(0,25)">13.Nf1</A> <A id=l26 
+      href="javascript:c(0,26)">Nbd7</A> <A id=l27 
+      href="javascript:c(0,27)">14.N3h2</A> <A id=l28 
+      href="javascript:c(0,28)">Nc5</A> <A id=l29 
+      href="javascript:c(0,29)">15.Bc2</A> <A id=l30 
+      href="javascript:c(0,30)">c6</A> <A id=l31 
+      href="javascript:c(0,31)">16.b4</A> <A id=l32 
+      href="javascript:c(0,32)">Ncd7</A> <A id=l33 
+      href="javascript:c(0,33)">17.dxc6</A> <A id=l34 
+      href="javascript:c(0,34)">Bxc6</A> <A id=l35 
+      href="javascript:c(0,35)">18.Bg5</A> <A id=l36 
+      href="javascript:c(0,36)">Qc7</A> <A id=l37 
+      href="javascript:c(0,37)">19.Bxf6</A> <A id=l38 
+      href="javascript:c(0,38)">Nxf6</A> <A id=l39 
+      href="javascript:c(0,39)">20.Ng4</A> <A id=l40 
+      href="javascript:c(0,40)">Nxg4</A> <A id=l41 
+      href="javascript:c(0,41)">21.hxg4</A> <SPAN class=VC>Позиция, получившаяся 
+      на доске, уже встречалась на практике. И не раз...<BR></SPAN><A id=l43 
+      href="javascript:c(0,43)">21...Bb7</A> <SPAN class=VC>Ещё не новинка, но 
+      уже предпоследний шаг до неё. Пешка g4 (после Bc8) выглядит вкусной, но на 
+      самом деле чёрные хотят достойно встретить появление белого слона, слона 
+      Фишера, на поле b3.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>«Переписочники», практически 
+      как один, играли здесь в основном<BR></SPAN><A id=l45 
+      href="javascript:c(0,45)">21...Rec8!</A> <SPAN class=VC>после чего им было 
+      грех жаловаться на судьбу -<BR></SPAN><A id=l46 
+      href="javascript:c(0,46)">22.Bb3</A> <A id=l47 
+      href="javascript:c(0,47)">a5</A> <A id=l49 
+      href="javascript:c(0,49)">23.bxa5</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l51 href="javascript:c(0,51)">23.Rc1</A> <A 
+      id=l52 href="javascript:c(0,52)">Be7</A> <A id=l53 
+      href="javascript:c(0,53)">24.Qf3</A> <A id=l54 
+      href="javascript:c(0,54)">Bg5</A> <A id=l55 
+      href="javascript:c(0,55)">25.Rcd1</A> <A id=l56 
+      href="javascript:c(0,56)">a4</A> <A id=l57 
+      href="javascript:c(0,57)">26.Bd5</A> <A id=l58 
+      href="javascript:c(0,58)">Bxd5</A> <A id=l59 
+      href="javascript:c(0,59)">27.Rxd5</A> <A id=l60 
+      href="javascript:c(0,60)">Qxc3</A> <A id=l61 
+      href="javascript:c(0,61)">28.Qxc3</A> <A id=l62 
+      href="javascript:c(0,62)">Rxc3</A> <A id=l63 
+      href="javascript:c(0,63)">29.Rxb5</A> <A id=l64 
+      href="javascript:c(0,64)">h6</A> <A id=l65 
+      href="javascript:c(0,65)">30.Ng3</A> <A id=l66 
+      href="javascript:c(0,66)">Rc2</A> <A id=l67 
+      href="javascript:c(0,67)">31.Re2</A> <A id=l68 
+      href="javascript:c(0,68)">Rc1+</A> <A id=l69 
+      href="javascript:c(0,69)">32.Kh2</A> <A id=l70 
+      href="javascript:c(0,70)">Bf4</A> <A id=l71 
+      href="javascript:c(0,71)">33.Ra5</A> <A id=l72 
+      href="javascript:c(0,72)">Rac8</A> <A id=l73 
+      href="javascript:c(0,73)">34.Rxa4</A> <A id=l74 
+      href="javascript:c(0,74)">g5</A> <SPAN class=VC>0-1 Pyrich,G (2390) - 
+      Rozenberg,D (2432)/ICCF Email 2000/MegaCorr4</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l76 href="javascript:c(0,76)">23.Re3</A> <A 
+      id=l77 href="javascript:c(0,77)">Be7</A> <A id=l78 
+      href="javascript:c(0,78)">24.Qf3</A> <A id=l79 
+      href="javascript:c(0,79)">Bg5</A> <A id=l80 
+      href="javascript:c(0,80)">25.Rd3</A> <A id=l81 
+      href="javascript:c(0,81)">a4</A> <A id=l82 
+      href="javascript:c(0,82)">26.Bd5</A> <A id=l83 
+      href="javascript:c(0,83)">Bxd5</A> <A id=l84 
+      href="javascript:c(0,84)">27.Rxd5</A> <A id=l85 
+      href="javascript:c(0,85)">Rab8</A> <A id=l86 
+      href="javascript:c(0,86)">28.Rd3</A> <A id=l87 
+      href="javascript:c(0,87)">Qc4</A> <A id=l88 
+      href="javascript:c(0,88)">29.Ng3</A> <A id=l89 
+      href="javascript:c(0,89)">g6</A> <A id=l90 
+      href="javascript:c(0,90)">30.Ne2</A> <A id=l91 
+      href="javascript:c(0,91)">Rc6</A> <SPAN class=VC>1/2 Ibar,M (2329) - 
+      Schulze,M (2439)/IECG 2002/MegaCorr4</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l94 
+      href="javascript:c(0,94)">23...Qxa5</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l96 href="javascript:c(0,96)">23...Be7</A> <A 
+      id=l97 href="javascript:c(0,97)">24.Qf3</A> <A id=l98 
+      href="javascript:c(0,98)">Be8</A> <A id=l99 
+      href="javascript:c(0,99)">25.Re3</A> <A id=l100 
+      href="javascript:c(0,100)">Qxa5</A> <A id=l101 
+      href="javascript:c(0,101)">26.Ng3</A> <A id=l102 
+      href="javascript:c(0,102)">g6</A> <A id=l103 
+      href="javascript:c(0,103)">27.Rd3</A> <A id=l104 
+      href="javascript:c(0,104)">Rc5</A> <A id=l105 
+      href="javascript:c(0,105)">28.Ne2</A> <A id=l106 
+      href="javascript:c(0,106)">Qc7</A> <A id=l107 
+      href="javascript:c(0,107)">29.Qe3</A> <A id=l108 
+      href="javascript:c(0,108)">Bd7</A> <A id=l109 
+      href="javascript:c(0,109)">30.Qh6</A> <A id=l110 
+      href="javascript:c(0,110)">Bxg4</A> <A id=l111 
+      href="javascript:c(0,111)">31.Bxf7+</A> <A id=l112 
+      href="javascript:c(0,112)">Kh8</A> <A id=l113 
+      href="javascript:c(0,113)">32.Bxg6</A> <A id=l114 
+      href="javascript:c(0,114)">Bf8</A> <A id=l115 
+      href="javascript:c(0,115)">33.Qg5</A> <A id=l116 
+      href="javascript:c(0,116)">Bxe2</A> <A id=l117 
+      href="javascript:c(0,117)">34.Rh3</A> <A id=l118 
+      href="javascript:c(0,118)">Bc4</A> <A id=l119 
+      href="javascript:c(0,119)">35.Bxh7</A> <A id=l120 
+      href="javascript:c(0,120)">Qxh7</A> <A id=l121 
+      href="javascript:c(0,121)">36.Qf6+</A> <A id=l122 
+      href="javascript:c(0,122)">Kg8</A> <A id=l123 
+      href="javascript:c(0,123)">37.Rxh7</A> <A id=l124 
+      href="javascript:c(0,124)">Kxh7</A> <A id=l125 
+      href="javascript:c(0,125)">38.Qf5+</A> <A id=l126 
+      href="javascript:c(0,126)">Kg7</A> <A id=l127 
+      href="javascript:c(0,127)">39.Qd7+</A> <A id=l128 
+      href="javascript:c(0,128)">Bf7</A> <A id=l129 
+      href="javascript:c(0,129)">40.Rb1</A> <A id=l130 
+      href="javascript:c(0,130)">Rxa2</A> <SPAN class=VC>1/2 Felicio,C (2452) - 
+      Straka,Z (2432)/corr ICCF 2002/MegaCorr4</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l132 
+      href="javascript:c(0,132)">24.Re3</A> <A id=l133 
+      href="javascript:c(0,133)">Ra7</A> <A id=l134 
+      href="javascript:c(0,134)">25.Qf3</A> <A id=l135 
+      href="javascript:c(0,135)">Rac7</A> <A id=l136 
+      href="javascript:c(0,136)">26.Rc1</A> <A id=l137 
+      href="javascript:c(0,137)">Be8</A> <A id=l138 
+      href="javascript:c(0,138)">27.Rd3</A> <A id=l139 
+      href="javascript:c(0,139)">Be7</A> <A id=l140 
+      href="javascript:c(0,140)">28.Rc2</A> <A id=l141 
+      href="javascript:c(0,141)">Rc6</A> <A id=l142 
+      href="javascript:c(0,142)">29.Ng3</A> <A id=l143 
+      href="javascript:c(0,143)">g6</A> <A id=l144 
+      href="javascript:c(0,144)">30.Ne2</A> <A id=l145 
+      href="javascript:c(0,145)">Bg5</A> <A id=l146 
+      href="javascript:c(0,146)">31.Bd5</A> <A id=l147 
+      href="javascript:c(0,147)">Rc5</A> <A id=l148 
+      href="javascript:c(0,148)">32.Rb2</A> <A id=l149 
+      href="javascript:c(0,149)">Qc7</A> <A id=l150 
+      href="javascript:c(0,150)">33.Rb1</A> <A id=l151 
+      href="javascript:c(0,151)">Bc6</A> <A id=l152 
+      href="javascript:c(0,152)">34.Bb3</A> <A id=l153 
+      href="javascript:c(0,153)">Rd8</A> <A id=l154 
+      href="javascript:c(0,154)">35.Ng3</A> <A id=l155 
+      href="javascript:c(0,155)">Bf4</A> <A id=l156 
+      href="javascript:c(0,156)">36.Ne2</A> <SPAN class=VC>(1/2 Coleman,P 
+      (2573)-Ruch,E (2517)/ICCF Email 2002/MegaCorr4).</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>А вот в «реале» уже у белых 
+      всё было хорошо. Правда, играли обычно неравные по силе шахматисты 
+      -<BR></SPAN><A id=l158 href="javascript:c(0,158)">21...Qb7</A> <A id=l159 
+      href="javascript:c(0,159)">22.Qd3</A> <A id=l160 
+      href="javascript:c(0,160)">Rac8</A> <A id=l161 
+      href="javascript:c(0,161)">23.Bb3</A> <A id=l162 
+      href="javascript:c(0,162)">Bd7</A> <A id=l163 
+      href="javascript:c(0,163)">24.Ne3</A> <A id=l164 
+      href="javascript:c(0,164)">Be6</A> <A id=l165 
+      href="javascript:c(0,165)">25.Nd5</A> <A id=l166 
+      href="javascript:c(0,166)">Rc6</A> <A id=l167 
+      href="javascript:c(0,167)">26.a4</A> <A id=l168 
+      href="javascript:c(0,168)">Rcc8</A> <A id=l169 
+      href="javascript:c(0,169)">27.axb5</A> <A id=l170 
+      href="javascript:c(0,170)">axb5</A> <A id=l171 
+      href="javascript:c(0,171)">28.Ra5</A> <A id=l172 
+      href="javascript:c(0,172)">Bd7</A> <A id=l173 
+      href="javascript:c(0,173)">29.Rea1</A> <A id=l174 
+      href="javascript:c(0,174)">Ra8</A> <A id=l175 
+      href="javascript:c(0,175)">30.Nb6!</A> <A id=l176 
+      href="javascript:c(0,176)">Rxa5</A> <A id=l177 
+      href="javascript:c(0,177)">31.bxa5</A> <A id=l179 
+      href="javascript:c(0,179)">Bc6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>или</SPAN> <A id=l181 
+      href="javascript:c(0,181)">31...Bxg4</A> <A id=l182 
+      href="javascript:c(0,182)">32.Qd5</A> <A id=l183 
+      href="javascript:c(0,183)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Qc7</A> <A id=l184 
+      href="javascript:c(0,184)">33.a6!</A> <A id=l185 
+      href="javascript:c(0,185)">Be6</A> <A id=l186 
+      href="javascript:c(0,186)">34.Qxb5</A> <A id=l187 
+      href="javascript:c(0,187)">Qxc3</A> <A id=l188 
+      href="javascript:c(0,188)">35.Rb1</A> <A id=l189 
+      href="javascript:c(0,189)">Re7</A> <A id=l190 
+      href="javascript:c(0,190)">36.Nd5</A> <A id=l191 
+      href="javascript:c(0,191)">Bxd5</A> <A id=l192 
+      href="javascript:c(0,192)">37.Bxd5<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l194 
+      href="javascript:c(0,194)">32.Bd5</A> <A id=l195 
+      href="javascript:c(0,195)">Bxd5</A> <A id=l196 
+      href="javascript:c(0,196)">33.Nxd5</A> <A id=l197 
+      href="javascript:c(0,197)">Rc8</A> <A id=l198 
+      href="javascript:c(0,198)">34.a6</A> <A id=l199 
+      href="javascript:c(0,199)">Qa7</A> <A id=l200 
+      href="javascript:c(0,200)">35.Qxb5</A> <A id=l201 
+      href="javascript:c(0,201)">Rb8</A> <A id=l202 
+      href="javascript:c(0,202)">36.Qxb8!</A> <SPAN class=VC>(1-0 Delchev,A 
+      (2548) - Levar,N (2120)/Belisce 1999)</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<A id=l204 
+      href="javascript:c(0,204)">21...Rac8</A> <A id=l205 
+      href="javascript:c(0,205)">22.Bb3</A> <A id=l206 
+      href="javascript:c(0,206)">Bd7</A> <A id=l207 
+      href="javascript:c(0,207)">23.Rc1</A> <A id=l208 
+      href="javascript:c(0,208)">Be7</A> <A id=l209 
+      href="javascript:c(0,209)">24.Ne3</A> <A id=l210 
+      href="javascript:c(0,210)">Bg5</A> <A id=l211 
+      href="javascript:c(0,211)">25.Nd5</A> <A id=l212 
+      href="javascript:c(0,212)">Qb8</A> <A id=l213 
+      href="javascript:c(0,213)">26.Rc2</A> <A id=l214 
+      href="javascript:c(0,214)">Rc6</A> <A id=l215 
+      href="javascript:c(0,215)">27.g3</A> <A id=l216 
+      href="javascript:c(0,216)">Qc8</A> <A id=l217 
+      href="javascript:c(0,217)">28.f3</A> <A id=l218 
+      href="javascript:c(0,218)">Be6</A> <A id=l219 
+      href="javascript:c(0,219)">29.Qd3</A> <A id=l220 
+      href="javascript:c(0,220)">Bd8</A> <A id=l221 
+      href="javascript:c(0,221)">30.Kg2</A> <A id=l222 
+      href="javascript:c(0,222)">Qb7</A> <A id=l223 
+      href="javascript:c(0,223)">31.Rh1</A> <A id=l224 
+      href="javascript:c(0,224)">Be7</A> <A id=l225 
+      href="javascript:c(0,225)">32.Kf1</A> <A id=l226 
+      href="javascript:c(0,226)">Rec8</A> <A id=l227 
+      href="javascript:c(0,227)">33.Rch2</A> <A id=l228 
+      href="javascript:c(0,228)">h6</A> <A id=l229 
+      href="javascript:c(0,229)">34.Qe3</A> <A id=l230 
+      href="javascript:c(0,230)">Kf8</A> <A id=l231 
+      href="javascript:c(0,231)">35.g5!</A> <A id=l233 
+      href="javascript:c(0,233)">h5</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>если</SPAN> <A id=l235 
+      href="javascript:c(0,235)">35...Bxg5</A> <SPAN class=VC>, то</SPAN> <A 
+      id=l236 href="javascript:c(0,236)">36.Qxg5!!<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A> <A id=l237 href="javascript:c(0,237)"><IMG 
+      height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>hxg5??</A> <A id=l238 
+      href="javascript:c(0,238)">37.Rh8#</A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>в случае</SPAN> <A id=l240 
+      href="javascript:c(0,240)">35...Bxd5</A> <SPAN class=VC>в дело вступает 
+      оставшаяся в живых пешка<BR></SPAN><A id=l241 
+      href="javascript:c(0,241)">36.gxh6!</A> <A id=l242 
+      href="javascript:c(0,242)">Bxb3</A> <A id=l243 
+      href="javascript:c(0,243)">37.hxg7+</A> <A id=l244 
+      href="javascript:c(0,244)">Ke8</A> <SPAN class=VC>(иначе 
+      мат!)<BR></SPAN><A id=l246 href="javascript:c(0,246)">38.Rh8+!</A> (<SPAN 
+      class=VC>не столь сильно<BR></SPAN><A id=l248 
+      href="javascript:c(0,248)">38.g8=Q+</A> <A id=l249 
+      href="javascript:c(0,249)">Kd7</A> <A id=l250 
+      href="javascript:c(0,250)">39.Qh7</A> <A id=l251 
+      href="javascript:c(0,251)">Rxc3<IMG height=12 alt=Counter-attack 
+      src="../european_club_cup_2007_1_game1.files/infgegenspiel.gif" width=16 
+      align=bottom border=0></A>) <A id=l253 
+      href="javascript:c(0,253)">38...Kd7</A> <A id=l254 
+      href="javascript:c(0,254)">39.axb3</A> <A id=l255 
+      href="javascript:c(0,255)">Rxc3</A> <A id=l256 
+      href="javascript:c(0,256)">40.Qxc3!</A> <A id=l257 
+      href="javascript:c(0,257)">Rxc3</A> <A id=l258 
+      href="javascript:c(0,258)">41.g8=Q<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l260 
+      href="javascript:c(0,260)">36.Rxh5</A> <A id=l261 
+      href="javascript:c(0,261)">Ke8</A> <A id=l262 
+      href="javascript:c(0,262)">37.Rh8+</A> <A id=l263 
+      href="javascript:c(0,263)">Kd7</A> <A id=l264 
+      href="javascript:c(0,264)">38.Rxc8</A> <A id=l265 
+      href="javascript:c(0,265)">Kxc8</A> <A id=l266 
+      href="javascript:c(0,266)">39.Rh8+</A> <A id=l267 
+      href="javascript:c(0,267)">Kd7</A> <A id=l268 
+      href="javascript:c(0,268)">40.g6!</A> <A id=l269 
+      href="javascript:c(0,269)">fxg6</A> <A id=l270 
+      href="javascript:c(0,270)">41.Nxe7</A> <SPAN class=VC>(1-0 Jansa,V (2482) 
+      - Klovans,J (2433)/Arvier 2006).</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Наконец, ещё один путь ничьей 
+      был (в докомпьютерную эпоху) продемонстрирован в следующем поединке. Опять 
+      же в партии по переписке.<BR></SPAN><A id=l272 
+      href="javascript:c(0,272)">21...Be7</A> <A id=l273 
+      href="javascript:c(0,273)">22.Qf3</A> <A id=l274 
+      href="javascript:c(0,274)">Bd7</A> <A id=l275 
+      href="javascript:c(0,275)">23.Bb3</A> <A id=l276 
+      href="javascript:c(0,276)">Be6</A> <A id=l277 
+      href="javascript:c(0,277)">24.Ne3</A> <A id=l278 
+      href="javascript:c(0,278)">Qxc3</A> <A id=l279 
+      href="javascript:c(0,279)">25.Nd5</A> <A id=l280 
+      href="javascript:c(0,280)">Qxf3</A> <A id=l281 
+      href="javascript:c(0,281)">26.gxf3</A> <A id=l282 
+      href="javascript:c(0,282)">Rac8</A> <A id=l283 
+      href="javascript:c(0,283)">27.a4</A> <A id=l284 
+      href="javascript:c(0,284)">Bg5</A> <A id=l285 
+      href="javascript:c(0,285)">28.axb5</A> <A id=l286 
+      href="javascript:c(0,286)">axb5</A> <A id=l287 
+      href="javascript:c(0,287)">29.Ra7</A> <A id=l288 
+      href="javascript:c(0,288)">Ra8</A> <A id=l289 
+      href="javascript:c(0,289)">30.Rxa8</A> <A id=l290 
+      href="javascript:c(0,290)">Rxa8</A> <A id=l291 
+      href="javascript:c(0,291)">31.Nc7</A> <A id=l292 
+      href="javascript:c(0,292)">Rb8</A> <A id=l293 
+      href="javascript:c(0,293)">32.Nxe6</A> <A id=l294 
+      href="javascript:c(0,294)">fxe6</A> <A id=l295 
+      href="javascript:c(0,295)">33.Bxe6+</A> <A id=l296 
+      href="javascript:c(0,296)">Kf8</A> <A id=l297 
+      href="javascript:c(0,297)">34.Ra1</A> <A id=l298 
+      href="javascript:c(0,298)">Ke7</A> <A id=l299 
+      href="javascript:c(0,299)">35.Bd5</A> <A id=l300 
+      href="javascript:c(0,300)">Bd2</A> <A id=l301 
+      href="javascript:c(0,301)">36.Ra7+</A> <A id=l302 
+      href="javascript:c(0,302)">Kf6</A> <A id=l303 
+      href="javascript:c(0,303)">37.Rf7+</A> <A id=l304 
+      href="javascript:c(0,304)">Kg6</A> <A id=l305 
+      href="javascript:c(0,305)">38.Rb7</A> <SPAN class=VC>(1/2 Sychyov,A (2510) 
+      - Van Oosterom,J (2655)/corr ICCF 1996).</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l308 
+      href="javascript:c(0,308)">22.Re3!<IMG height=12 alt="New opening move" 
+      src="../european_club_cup_2007_1_game1.files/infneuerungbold.gif" width=16 
+      align=bottom border=0></A> <SPAN class=VC>До пешки с3 теперь чёрным трудно 
+      будет добраться... А вот белые, в свою очередь, начинают «присматриваться» 
+      к пункту f7 (Bb3, Rf3 etc.).<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<A id=l310 
+      href="javascript:c(0,310)">22.Qf3</A> <A id=l311 
+      href="javascript:c(0,311)">Rac8</A> <A id=l312 
+      href="javascript:c(0,312)">23.Bb3</A> <A id=l314 
+      href="javascript:c(0,314)">d5!<IMG height=9 alt== 
+      src="../european_club_cup_2007_1_game1.files/infgleich.gif" width=16 
+      align=bottom border=0></A> <SPAN class=VC>Если не сказать 
+      большее...<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l316 href="javascript:c(0,316)">23...Qxc3??</A> 
+      <A id=l317 href="javascript:c(0,317)">24.Qxf7+</A> <A id=l318 
+      href="javascript:c(0,318)">Kh8</A> <A id=l319 
+      href="javascript:c(0,319)">25.Qg8#</A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l321 
+      href="javascript:c(0,321)">24.Bxd5</A> <A id=l322 
+      href="javascript:c(0,322)">Bxd5</A> <A id=l323 
+      href="javascript:c(0,323)">25.exd5</A> <A id=l324 
+      href="javascript:c(0,324)">Qxc3</A> <A id=l325 
+      href="javascript:c(0,325)">26.a3</A> <A id=l326 
+      href="javascript:c(0,326)">Qxf3</A> <A id=l327 
+      href="javascript:c(0,327)">27.gxf3</A> <A id=l328 
+      href="javascript:c(0,328)">f6</A> <A id=l329 
+      href="javascript:c(0,329)">28.Ne3</A> <A id=l330 
+      href="javascript:c(0,330)">g6</A> <A id=l331 
+      href="javascript:c(0,331)">29.Rac1</A> <A id=l332 
+      href="javascript:c(0,332)">Kf7</A> <A id=l333 
+      href="javascript:c(0,333)">30.Red1</A> <A id=l334 
+      href="javascript:c(0,334)">Bd6</A> <A id=l335 
+      href="javascript:c(0,335)">31.Kg2</A> <A id=l336 
+      href="javascript:c(0,336)">Ke7</A> <A id=l337 
+      href="javascript:c(0,337)">32.Rc6</A> <A id=l338 
+      href="javascript:c(0,338)">Rxc6</A> <A id=l339 
+      href="javascript:c(0,339)">33.dxc6</A> <A id=l340 
+      href="javascript:c(0,340)">Ke6</A> <A id=l341 
+      href="javascript:c(0,341)">34.Nd5</A> <A id=l342 
+      href="javascript:c(0,342)">Rc8</A> <A id=l343 
+      href="javascript:c(0,343)">35.Nxf6</A> <A id=l344 
+      href="javascript:c(0,344)">Bxb4</A> <A id=l346 
+      href="javascript:c(0,346)">36.Rd6+??</A> <SPAN class=VC>Э-э... Ничего не 
+      понял...<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>уж во всяком случае, упорнее было 
+      ускользнуть в «ладейник» -<BR></SPAN><A id=l348 
+      href="javascript:c(0,348)">36.axb4</A> <A id=l349 
+      href="javascript:c(0,349)">Kxf6</A> <A id=l350 
+      href="javascript:c(0,350)">37.Rd6+</A> <A id=l351 
+      href="javascript:c(0,351)">Ke7</A> <A id=l352 
+      href="javascript:c(0,352)">38.Rd7+</A> <A id=l353 
+      href="javascript:c(0,353)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Ke6</A> <A id=l354 
+      href="javascript:c(0,354)">39.Rxh7</A> <A id=l355 
+      href="javascript:c(0,355)">Rxc6</A> <A id=l356 
+      href="javascript:c(0,356)">40.Rh1!</A> <A id=l357 
+      href="javascript:c(0,357)">Rc4</A> <A id=l358 
+      href="javascript:c(0,358)">41.Ra1</A> <SPAN class=VC>и 
+    т.д.</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l360 
+      href="javascript:c(0,360)">36...Bxd6</A> <SPAN class=VC>0-1 Ward,R 
+      (2149)-Mayer,J (2057)/ICCF Email 2003/MegaCorr4</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l363 
+      href="javascript:c(0,363)">22...Be7!</A> <SPAN class=VC>По всей видимости, 
+      лучшее, контриграющее, продолжение.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>И послабее<BR></SPAN><A 
+      id=l365 href="javascript:c(0,365)">22...a5</A> <A id=l366 
+      href="javascript:c(0,366)">23.Bb3</A> <A id=l367 
+      href="javascript:c(0,367)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Be7</A> <A id=l369 
+      href="javascript:c(0,369)">24.Qd3!?</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>если</SPAN> <A id=l371 
+      href="javascript:c(0,371)">24.Rf3</A> <SPAN class=VC>, то можно сыграть 
+      и<BR></SPAN><A id=l372 href="javascript:c(0,372)">24...Bxe4!?</A> <SPAN 
+      class=VC>, после чего у чёрных - не хуже</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l374 
+      href="javascript:c(0,374)">24...Bg5</A> <A id=l375 
+      href="javascript:c(0,375)">25.Rf3</A> <A id=l376 
+      href="javascript:c(0,376)">Rf8</A> <A id=l377 
+      href="javascript:c(0,377)">26.Ne3<IMG height=12 alt=Initiative 
+      src="../european_club_cup_2007_1_game1.files/infinitiative.gif" width=16 
+      align=bottom border=0></A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l379 
+      href="javascript:c(0,379)">23.Bb3</A> <SPAN class=VC>Вот слон и 
+      вышел.<BR></SPAN><A id=l381 href="javascript:c(0,381)">23...Bg5</A> <SPAN 
+      class=VC>А вот и ответ на это, быть может, не 
+    лучший...<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<A id=l383 
+      href="javascript:c(0,383)">23...a5!?</A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l385 
+      href="javascript:c(0,385)">24.Rf3</A> <A id=l387 
+      href="javascript:c(0,387)">Rf8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Конечно, не<BR></SPAN><A 
+      id=l389 href="javascript:c(0,389)">24...Bxe4??</A> <A id=l390 
+      href="javascript:c(0,390)">25.Rxf7<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l393 
+      href="javascript:c(0,393)">25.Qe2!?</A> <SPAN class=VC>Хитро 
+      задумано.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Но не лучше ли было 
+      сыграть<BR></SPAN><A id=l395 href="javascript:c(0,395)">25.Bd5!?</A> <SPAN 
+      class=VC>, затем Ne3 и после всех разменов позиция белых всё же 
+      поприятнее?</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l397 
+      href="javascript:c(0,397)">25...Bc8</A> <SPAN class=VC>На это белые и 
+      рассчитывали.<BR></SPAN><A id=l398 href="javascript:c(0,398)">26.Rd1!</A> 
+      <A id=l400 href="javascript:c(0,400)">Be6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Разумеется, нельзя 
+      рекомендовать<BR></SPAN><A id=l402 
+      href="javascript:c(0,402)">26...Bxg4</A> <SPAN class=VC>ввиду 
+      эффектного<BR></SPAN><A id=l403 href="javascript:c(0,403)">27.Rxf7!</A> 
+      <SPAN class=VC>И далее:</SPAN> <A id=l405 
+      href="javascript:c(0,405)">27...Rxf7</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l407 href="javascript:c(0,407)">27...Bxe2?</A> 
+      <A id=l408 href="javascript:c(0,408)">28.Rxc7+</A> <A id=l409 
+      href="javascript:c(0,409)">Kh8</A> <A id=l410 
+      href="javascript:c(0,410)">29.Rxd6<IMG height=12 alt="+ / -" 
+      src="../european_club_cup_2007_1_game1.files/infplusleichtminus.gif" 
+      width=16 align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l412 
+      href="javascript:c(0,412)">28.Qxg4</A> <A id=l413 
+      href="javascript:c(0,413)">h6</A> <A id=l414 
+      href="javascript:c(0,414)">29.Qh5!</A> <SPAN class=VC>, и у чёрных 
+      серьёзные проблемы (<BR></SPAN><A id=l415 
+      href="javascript:c(0,415)">29...Rd8</A> <A id=l416 
+      href="javascript:c(0,416)">30.Ng3</A> <A id=l417 
+      href="javascript:c(0,417)">Kf8</A> <A id=l418 
+      href="javascript:c(0,418)">31.Qg6!<IMG height=11 alt=Attack 
+      src="../european_club_cup_2007_1_game1.files/infangriff.gif" width=16 
+      align=bottom border=0></A> <SPAN class=VC>).</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l420 
+      href="javascript:c(0,420)">27.Ne3!?</A> <A id=l422 
+      href="javascript:c(0,422)">Bxe3</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Только «комп» и Виктор 
+      Корчной в расцвете своего таланта могли бы съесть на с3 -<BR></SPAN><A 
+      id=l424 href="javascript:c(0,424)">27...Qxc3!?</A> <A id=l425 
+      href="javascript:c(0,425)">28.Nd5</A> <A id=l427 
+      href="javascript:c(0,427)">Qc6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l429 href="javascript:c(0,429)">28...Qc8?</A> <A 
+      id=l430 href="javascript:c(0,430)">29.Nb6</A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l433 
+      href="javascript:c(0,433)">29.Qe3!!</A> <SPAN class=VC>Весьма 
+      неожиданно!<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>очевидное</SPAN> <A id=l435 
+      href="javascript:c(0,435)">29.Rc3</A> <SPAN class=VC>, по-моему, ни к чему 
+      осязаемому не ведёт -<BR></SPAN><A id=l436 
+      href="javascript:c(0,436)">29...Qb7</A> <A id=l437 
+      href="javascript:c(0,437)">30.Rc7</A> <A id=l438 
+      href="javascript:c(0,438)">Qb8</A> <A id=l439 
+      href="javascript:c(0,439)">31.Rc6</A> <A id=l440 
+      href="javascript:c(0,440)">Rd8</A> <SPAN class=VC>, и чёрные готовы к 
+      продвижению а6-а5. Хотя, на человеческий взгляд, позиция белых кажется 
+      весьма притягательной...</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l443 
+      href="javascript:c(0,443)">29...Bd8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>вроде лучшее; если<BR></SPAN><A id=l445 
+      href="javascript:c(0,445)">29...Bxd5</A> <SPAN class=VC>, то</SPAN> <A 
+      id=l446 href="javascript:c(0,446)">30.exd5</A> <A id=l447 
+      href="javascript:c(0,447)">Bxe3</A> <A id=l448 
+      href="javascript:c(0,448)">31.dxc6</A> <A id=l449 
+      href="javascript:c(0,449)">Bd4</A> <A id=l450 
+      href="javascript:c(0,450)">32.Bd5<IMG height=12 alt="+ / =" 
+      src="../european_club_cup_2007_1_game1.files/infplusgleich.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>или</SPAN> <A id=l452 
+      href="javascript:c(0,452)">29...Bxe3</A> <A id=l453 
+      href="javascript:c(0,453)">30.Ne7+</A> <A id=l454 
+      href="javascript:c(0,454)">Kh8</A> <A id=l455 
+      href="javascript:c(0,455)">31.Nxc6</A> <A id=l456 
+      href="javascript:c(0,456)">Bxb3</A> <A id=l457 
+      href="javascript:c(0,457)">32.axb3</A> <A id=l458 
+      href="javascript:c(0,458)">Bb6</A> <A id=l459 
+      href="javascript:c(0,459)">33.Rxd6<IMG height=12 alt="+ / =" 
+      src="../european_club_cup_2007_1_game1.files/infplusgleich.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l461 
+      href="javascript:c(0,461)">30.g5!</A> <SPAN class=VC>И теперь может 
+      случиться многое, если не что угодно! К примеру,<BR></SPAN><A id=l463 
+      href="javascript:c(0,463)">30...Rc8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>фантастический «форсаж» получился у 
+      меня после<BR></SPAN><A id=l465 href="javascript:c(0,465)">30...Bg4</A> <A 
+      id=l466 href="javascript:c(0,466)">31.Nf6+!</A> <A id=l467 
+      href="javascript:c(0,467)">gxf6</A> <A id=l468 
+      href="javascript:c(0,468)">32.gxf6</A> <A id=l469 
+      href="javascript:c(0,469)">Kh8<IMG height=12 alt="Only possible move" 
+      src="../european_club_cup_2007_1_game1.files/infeinzigerzug.gif" width=16 
+      align=bottom border=0></A> <A id=l470 
+      href="javascript:c(0,470)">33.Qh6</A> <A id=l471 
+      href="javascript:c(0,471)">Rg8</A> <A id=l472 
+      href="javascript:c(0,472)">34.Bxf7</A> <A id=l473 
+      href="javascript:c(0,473)">Qxe4</A> <A id=l474 
+      href="javascript:c(0,474)">35.Bxg8</A> <A id=l475 
+      href="javascript:c(0,475)">Qg6</A> <A id=l477 
+      href="javascript:c(0,477)">36.Qxg6!?</A> <SPAN class=VC>После этого нас 
+      ждёт ещё, как минимум, 10 ходов «неуклонизма» от главной 
+      линии.<BR></SPAN>(<SPAN class=VC>заслуживает внимания и<BR></SPAN><A 
+      id=l479 href="javascript:c(0,479)">36.Qf8</A> <SPAN class=VC>, переходя в 
+      гораздо более лучший эндшпиль -<BR></SPAN><A id=l480 
+      href="javascript:c(0,480)">36...Qxg8</A> <A id=l481 
+      href="javascript:c(0,481)">37.Qxg8+</A> <A id=l482 
+      href="javascript:c(0,482)">Kxg8</A> <A id=l483 
+      href="javascript:c(0,483)">38.Rg3</A> <A id=l484 
+      href="javascript:c(0,484)">h5</A> <A id=l485 
+      href="javascript:c(0,485)">39.f3</A> <A id=l486 
+      href="javascript:c(0,486)">Bb6+</A> <A id=l488 
+      href="javascript:c(0,488)">40.Kh2</A> (<SPAN class=VC>или с лишним 
+      качеством<BR></SPAN><A id=l490 href="javascript:c(0,490)">40.Kf1</A> <A 
+      id=l491 href="javascript:c(0,491)">Bd4</A> <A id=l492 
+      href="javascript:c(0,492)">41.fxg4</A> <A id=l493 
+      href="javascript:c(0,493)">hxg4</A> <A id=l494 
+      href="javascript:c(0,494)">42.Ke2!?</A> <A id=l495 
+      href="javascript:c(0,495)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Kf7</A> <A id=l496 
+      href="javascript:c(0,496)">43.Rf1</A> <A id=l497 
+      href="javascript:c(0,497)">Rg8</A> <A id=l498 
+      href="javascript:c(0,498)">44.Ra3</A> <A id=l499 
+      href="javascript:c(0,499)">Ra8</A> <A id=l500 
+      href="javascript:c(0,500)">45.Rh1</A> <SPAN class=VC>и т.д.</SPAN>) <A 
+      id=l502 href="javascript:c(0,502)">40...Bf2</A> <A id=l503 
+      href="javascript:c(0,503)">41.fxg4</A> <A id=l504 
+      href="javascript:c(0,504)">Bxg3+</A> <A id=l505 
+      href="javascript:c(0,505)">42.Kxg3<IMG height=12 alt="+ / -" 
+      src="../european_club_cup_2007_1_game1.files/infplusleichtminus.gif" 
+      width=16 align=bottom border=0></A>) <A id=l507 
+      href="javascript:c(0,507)">36...hxg6</A> <A id=l508 
+      href="javascript:c(0,508)">37.Bd5</A> <A id=l509 
+      href="javascript:c(0,509)">Bxf3</A> <A id=l510 
+      href="javascript:c(0,510)">38.Bxf3</A> <A id=l511 
+      href="javascript:c(0,511)">Rc8</A> <A id=l512 
+      href="javascript:c(0,512)">39.Rxd6</A> <A id=l513 
+      href="javascript:c(0,513)">Rc1+</A> <A id=l514 
+      href="javascript:c(0,514)">40.Kh2</A> <A id=l515 
+      href="javascript:c(0,515)">Bc7</A> <A id=l516 
+      href="javascript:c(0,516)">41.Rxa6</A> <SPAN class=VC>Уфф. Вытрем пот со 
+      лба, и продолжим.<BR></SPAN><A id=l517 
+      href="javascript:c(0,517)">41...e4+</A> <A id=l518 
+      href="javascript:c(0,518)">42.g3</A> <A id=l519 
+      href="javascript:c(0,519)">exf3</A> <A id=l520 
+      href="javascript:c(0,520)">43.Ra8+!</A> <SPAN class=VC>Возвращая 
+      материал.<BR></SPAN><A id=l521 href="javascript:c(0,521)">43...Kh7</A> <A 
+      id=l522 href="javascript:c(0,522)">44.f7</A> <A id=l523 
+      href="javascript:c(0,523)">Bd6</A> <A id=l524 
+      href="javascript:c(0,524)">45.f8=Q</A> <A id=l525 
+      href="javascript:c(0,525)">Bxf8</A> <A id=l526 
+      href="javascript:c(0,526)">46.Rxf8</A> <A id=l527 
+      href="javascript:c(0,527)">Rc2</A> <A id=l528 
+      href="javascript:c(0,528)">47.Rxf3</A> <A id=l529 
+      href="javascript:c(0,529)">Rxa2</A> <A id=l530 
+      href="javascript:c(0,530)">48.Kh3<IMG height=12 alt="+ / -" 
+      src="../european_club_cup_2007_1_game1.files/infplusleichtminus.gif" 
+      width=16 align=bottom border=0></A> <SPAN class=VC>, как 
+      минимум...</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l532 
+      href="javascript:c(0,532)">31.Nf6+!</A> <A id=l533 
+      href="javascript:c(0,533)">Kh8</A> <A id=l534 
+      href="javascript:c(0,534)">32.Nxh7!</A> <SPAN class=VC>Жертвы - на 
+      поток!<BR></SPAN><A id=l535 href="javascript:c(0,535)">32...Bb6</A> <A 
+      id=l536 href="javascript:c(0,536)">33.Nxf8</A> <SPAN class=VC>Пришло время 
+      «отдать» и ферзя -<BR></SPAN><A id=l537 
+      href="javascript:c(0,537)">33...Bxe3</A> <A id=l538 
+      href="javascript:c(0,538)">34.Nxe6</A> <A id=l540 
+      href="javascript:c(0,540)">fxe6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>а что ещё остаётся? Если<BR></SPAN><A 
+      id=l542 href="javascript:c(0,542)">34...Qd7?</A> <SPAN class=VC>, 
+      то</SPAN> <A id=l543 href="javascript:c(0,543)">35.Nc5!</A> <A id=l544 
+      href="javascript:c(0,544)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Bxc5</A> <A id=l545 
+      href="javascript:c(0,545)">36.bxc5</A> <A id=l546 
+      href="javascript:c(0,546)">Rxc5</A> <A id=l547 
+      href="javascript:c(0,547)">37.g6!</A> <SPAN class=VC>И скажите, 
+      пожалуйста, во сколько ладей можно оценить «испанского» слона белых? И 
+      хочется закончить вариант таким вот образом -<BR></SPAN><A id=l548 
+      href="javascript:c(0,548)">37...fxg6</A> <A id=l549 
+      href="javascript:c(0,549)">38.Rxd6!<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l551 
+      href="javascript:c(0,551)">35.Rh3+</A> <A id=l552 
+      href="javascript:c(0,552)">Kg8</A> <A id=l553 
+      href="javascript:c(0,553)">36.Bxe6+</A> <A id=l554 
+      href="javascript:c(0,554)">Kf8</A> <A id=l555 
+      href="javascript:c(0,555)">37.Bxc8</A> <A id=l556 
+      href="javascript:c(0,556)">Qc2!</A> <A id=l557 
+      href="javascript:c(0,557)">38.Rf1</A> <A id=l558 
+      href="javascript:c(0,558)">Bxg5</A> <A id=l559 
+      href="javascript:c(0,559)">39.Bxa6</A> <SPAN class=VC>с весьма творческой 
+      обстановкой. Ну, разве не красота?</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l561 
+      href="javascript:c(0,561)">28.Rxe3</A> <A id=l562 
+      href="javascript:c(0,562)">a5</A> <SPAN class=VC>Быть может, поздновато 
+      сыграно, потому и не имеет былой силы...<BR></SPAN><A id=l564 
+      href="javascript:c(0,564)">29.Bxe6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Неплохо смотрелся, по-моему, 
+      обмен<BR></SPAN><A id=l566 href="javascript:c(0,566)">29.Qxb5</A> <A 
+      id=l567 href="javascript:c(0,567)">Bxg4</A> <A id=l568 
+      href="javascript:c(0,568)">30.f3</A> <A id=l569 
+      href="javascript:c(0,569)">Be6</A> <A id=l570 
+      href="javascript:c(0,570)">31.Bxe6</A> <A id=l571 
+      href="javascript:c(0,571)">fxe6</A> <A id=l572 
+      href="javascript:c(0,572)">32.a3</A> <SPAN class=VC>- у белых будет 
+      проходная на ферзевом фланге, а у чёрных «зато» слабость на 
+      d6.</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l574 
+      href="javascript:c(0,574)">29...fxe6</A> <A id=l576 
+      href="javascript:c(0,576)">30.a3</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Теперь</SPAN> <A id=l578 
+      href="javascript:c(0,578)">30.Qxb5?!</A> <SPAN class=VC>, разумеется, 
+      слабо<BR></SPAN><A id=l579 href="javascript:c(0,579)">30...axb4</A> <A 
+      id=l580 href="javascript:c(0,580)">31.Qxb4</A> <A id=l581 
+      href="javascript:c(0,581)">Rxa2<IMG height=12 alt=Counter-attack 
+      src="../european_club_cup_2007_1_game1.files/infgegenspiel.gif" width=16 
+      align=bottom border=0></A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l583 
+      href="javascript:c(0,583)">30...axb4</A> <A id=l584 
+      href="javascript:c(0,584)">31.cxb4</A> <SPAN class=VC>Пешка b5 под 
+      боем.<BR></SPAN><A id=l585 href="javascript:c(0,585)">31...Qd7</A> <SPAN 
+      class=VC>Защищаем.</SPAN> <A id=l587 href="javascript:c(0,587)">32.g5</A> 
+      <SPAN class=VC>Похоже, именно здесь белые упустили свой 
+      шанс.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Сильно 
+      смотрелось<BR></SPAN><A id=l589 href="javascript:c(0,589)">32.Rc3!?</A> 
+      <SPAN class=VC>(увидел открытую линию - захвати её!)<BR></SPAN><A id=l590 
+      href="javascript:c(0,590)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>32...Rfc8</A> <A id=l591 
+      href="javascript:c(0,591)">33.Rc5!</A> <SPAN class=VC>И если</SPAN> <A 
+      id=l592 href="javascript:c(0,592)">33...Rxc5</A> <SPAN class=VC>, 
+      то</SPAN> <A id=l593 href="javascript:c(0,593)">34.bxc5</A> <A id=l594 
+      href="javascript:c(0,594)">Rxa3</A> <A id=l596 
+      href="javascript:c(0,596)">35.Rxd6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>надо бы помозговать и над<BR></SPAN><A 
+      id=l598 href="javascript:c(0,598)">35.cxd6</A> <A id=l599 
+      href="javascript:c(0,599)">Ra6</A> <A id=l600 
+      href="javascript:c(0,600)">36.Qd2<IMG height=12 alt="+ / =" 
+      src="../european_club_cup_2007_1_game1.files/infplusgleich.gif" width=16 
+      align=bottom border=0></A> <SPAN class=VC>- на первый взгляд, чёрные стоят 
+      здесь пассивно, но крепко...</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l602 
+      href="javascript:c(0,602)">35...Ra1+</A> <A id=l603 
+      href="javascript:c(0,603)">36.Kh2</A> <A id=l604 
+      href="javascript:c(0,604)">Qe7</A> <A id=l605 
+      href="javascript:c(0,605)">37.g3</A> <A id=l606 
+      href="javascript:c(0,606)">Qg5</A> <A id=l608 
+      href="javascript:c(0,608)">38.Rd1!</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>слабо</SPAN> <A id=l610 
+      href="javascript:c(0,610)">38.Rxe6?</A> <SPAN class=VC>после чего 
+      получается ничья -<BR></SPAN><A id=l611 
+      href="javascript:c(0,611)">38...g6</A> <A id=l612 
+      href="javascript:c(0,612)">39.Qe3<IMG height=12 alt="Only possible move" 
+      src="../european_club_cup_2007_1_game1.files/infeinzigerzug.gif" width=16 
+      align=bottom border=0></A> <A id=l613 href="javascript:c(0,613)">Qxg4!</A> 
+      <A id=l614 href="javascript:c(0,614)">40.Re8+<IMG height=12 
+      alt="Only possible move" 
+      src="../european_club_cup_2007_1_game1.files/infeinzigerzug.gif" width=16 
+      align=bottom border=0></A> <A id=l616 href="javascript:c(0,616)">Kg7</A> 
+      (<A id=l618 href="javascript:c(0,618)">40...Kf7??</A> <A id=l619 
+      href="javascript:c(0,619)">41.Rxe5<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A> <A id=l620 href="javascript:c(0,620)"><IMG 
+      height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Qd1</A> <A id=l621 
+      href="javascript:c(0,621)">42.Qf4+</A> <SPAN class=VC>и мат</SPAN>) <A 
+      id=l624 href="javascript:c(0,624)">41.Re7+</A> (<SPAN class=VC>но 
+      не</SPAN> <A id=l626 href="javascript:c(0,626)">41.Rxe5??</A> <A id=l627 
+      href="javascript:c(0,627)">Qd1<IMG height=10 alt="- +" 
+      src="../european_club_cup_2007_1_game1.files/infminusplus.gif" width=16 
+      align=bottom border=0></A>) <A id=l629 
+      href="javascript:c(0,629)">41...Kf6</A> <A id=l630 
+      href="javascript:c(0,630)">42.Rxh7</A> <A id=l631 
+      href="javascript:c(0,631)">Qd1</A> <A id=l632 
+      href="javascript:c(0,632)">43.Kg2</A> <A id=l633 
+      href="javascript:c(0,633)">Qg1+</A> <A id=l634 
+      href="javascript:c(0,634)">44.Kf3</A> <A id=l635 
+      href="javascript:c(0,635)">Qd1+</A> <A id=l636 
+      href="javascript:c(0,636)">45.Kg2</A> <A id=l637 
+      href="javascript:c(0,637)">Qg1+</A> <SPAN class=VC>- вечный 
+      шах</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l639 
+      href="javascript:c(0,639)">38...Rxd1</A> <A id=l640 
+      href="javascript:c(0,640)">39.Qxd1</A> <SPAN class=VC>, и вражескую 
+      проходную по линии с» чёрные могут и не остановить...<BR></SPAN><SPAN 
+      class=VC>(</SPAN> <A id=l641 href="javascript:c(0,641)">39...Qe7</A> <A 
+      id=l642 href="javascript:c(0,642)">40.c6</A> <A id=l643 
+      href="javascript:c(0,643)">Kf7</A> <A id=l644 
+      href="javascript:c(0,644)">41.Qc2</A> <A id=l645 
+      href="javascript:c(0,645)"><IMG height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>b4??</A> <A id=l646 
+      href="javascript:c(0,646)">42.c7</A> <A id=l647 
+      href="javascript:c(0,647)">b3</A> <A id=l648 
+      href="javascript:c(0,648)">43.Qc3!</A> <A id=l649 
+      href="javascript:c(0,649)">b2</A> <A id=l650 
+      href="javascript:c(0,650)">44.c8=Q</A> <A id=l651 
+      href="javascript:c(0,651)">b1=Q</A> <A id=l652 
+      href="javascript:c(0,652)">45.Qf3+</A> <SPAN class=VC>с матом 
+      после<BR></SPAN><A id=l653 href="javascript:c(0,653)">45...Qf6</A> <A 
+      id=l654 href="javascript:c(0,654)">46.Qd7+</A> <A id=l655 
+      href="javascript:c(0,655)">Kf8</A> <A id=l656 
+      href="javascript:c(0,656)">47.Qa3+</A> <SPAN class=VC>и 
+      т.д.)</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l658 
+      href="javascript:c(0,658)">32...Rac8!<IMG height=10 alt== 
+      src="../european_club_cup_2007_1_game1.files/infgleichbold.gif" width=16 
+      align=bottom border=0></A> <SPAN class=VC>Чёрные успели первыми выскочить 
+      на улицу.<BR></SPAN><A id=l659 href="javascript:c(0,659)">33.Red3</A> <A 
+      id=l660 href="javascript:c(0,660)">Rc6</A> <A id=l662 
+      href="javascript:c(0,662)">34.R3d2</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Или</SPAN> <A id=l664 
+      href="javascript:c(0,664)">34.Qd2</A> <A id=l665 
+      href="javascript:c(0,665)">Qf7!</A> <A id=l666 
+      href="javascript:c(0,666)">35.f3</A> <A id=l667 
+      href="javascript:c(0,667)">Qa7+</A> <A id=l668 
+      href="javascript:c(0,668)">36.Kh2</A> <A id=l669 
+      href="javascript:c(0,669)">Rd8</A> <SPAN class=VC>и 
+  т.д.</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l672 
+      href="javascript:c(0,672)">34...Ra6</A> <SPAN class=VC>Гм-гм...</SPAN> 
+      </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<A id=l674 
+      href="javascript:c(0,674)">34...Rb8!?</A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l676 
+      href="javascript:c(0,676)">35.a4!</A> <SPAN class=VC>Красивый удар и есть 
+      подозрение, что после него у белых было и более перспективное продолжение. 
+      Смотрим внимательно.<BR></SPAN><A id=l677 
+      href="javascript:c(0,677)">35...Rxa4</A> <A id=l678 
+      href="javascript:c(0,678)">36.Rxd6</A> <A id=l679 
+      href="javascript:c(0,679)">Qf7</A> <A id=l681 
+      href="javascript:c(0,681)">37.Rd8?!</A> <SPAN class=VC>Вот тут Магнус ещё 
+      раз споткнулся (ИМХО).<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>После</SPAN> <A id=l683 
+      href="javascript:c(0,683)">37.Rb1!</A> <SPAN class=VC>чёрные или сразу 
+      теряли пешечку, или приступали к тоскливой защите. Например,<BR></SPAN><A 
+      id=l685 href="javascript:c(0,685)">37...Ra7</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>или</SPAN> <A id=l687 
+      href="javascript:c(0,687)">37...Raa8</A> <A id=l688 
+      href="javascript:c(0,688)">38.Rf1!?</A> <SPAN class=VC>Теперь взятие на b5 
+      уже грозит по-взрослому.<BR></SPAN><A id=l689 
+      href="javascript:c(0,689)">38...Qe7</A> <A id=l690 
+      href="javascript:c(0,690)">39.Rfd1!</A> <A id=l691 
+      href="javascript:c(0,691)">Qxg5</A> <A id=l692 
+      href="javascript:c(0,692)">40.Rxe6</A> <SPAN class=VC>и 
+    т.д.</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l695 
+      href="javascript:c(0,695)">38.Rb6</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>но не</SPAN> <A id=l697 
+      href="javascript:c(0,697)">38.Qxb5??</A> <A id=l698 
+      href="javascript:c(0,698)">Qxf2+</A> <A id=l699 
+      href="javascript:c(0,699)">39.Kh2</A> <A id=l700 
+      href="javascript:c(0,700)">Ra2<IMG height=10 alt="- +" 
+      src="../european_club_cup_2007_1_game1.files/infminusplus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l702 
+      href="javascript:c(0,702)">38...Rb7</A> <A id=l703 
+      href="javascript:c(0,703)">39.Rxb7</A> <A id=l704 
+      href="javascript:c(0,704)">Qxb7</A> <A id=l705 
+      href="javascript:c(0,705)">40.Rc1</A> <SPAN class=VC>и 
+    Rс5.</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l707 
+      href="javascript:c(0,707)">37...Rxb4</A> <A id=l709 
+      href="javascript:c(0,709)">38.R1d7</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Уже нет ничего и после 
+      хитрого<BR></SPAN><A id=l711 href="javascript:c(0,711)">38.Qe3!?</A> <SPAN 
+      class=VC>с идеей прыгнуть ферзём на b6, создавая угрозу Rxf8+ и Rd8, 
+      ввиду<BR></SPAN><A id=l712 href="javascript:c(0,712)">38...Rd4!</A> <A 
+      id=l713 href="javascript:c(0,713)">39.R1xd4</A> <A id=l714 
+      href="javascript:c(0,714)">exd4</A> <A id=l715 
+      href="javascript:c(0,715)">40.Qxd4</A> <A id=l716 
+      href="javascript:c(0,716)">Qc7</A> <A id=l717 
+      href="javascript:c(0,717)">41.Rxf8+</A> <A id=l718 
+      href="javascript:c(0,718)">Kxf8</A> <A id=l719 
+      href="javascript:c(0,719)">42.Qb4+</A> <A id=l720 
+      href="javascript:c(0,720)">Kf7</A> <A id=l721 
+      href="javascript:c(0,721)">43.Qxb5</A> <SPAN class=VC>Пешка выиграна 
+      ненадолго.<BR></SPAN><A id=l722 href="javascript:c(0,722)">43...Qc1+</A> 
+      <A id=l724 href="javascript:c(0,724)">44.Kh2</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>или</SPAN> <A id=l726 
+      href="javascript:c(0,726)">44.Qf1</A> <A id=l727 
+      href="javascript:c(0,727)">Qxg5<IMG height=9 alt== 
+      src="../european_club_cup_2007_1_game1.files/infgleich.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l729 
+      href="javascript:c(0,729)">44...Qf4+</A> <A id=l730 
+      href="javascript:c(0,730)">45.Kg1</A> <A id=l731 
+      href="javascript:c(0,731)">Qxe4<IMG height=9 alt== 
+      src="../european_club_cup_2007_1_game1.files/infgleich.gif" width=16 
+      align=bottom border=0></A>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l734 
+      href="javascript:c(0,734)">38...Qf4!</A> <SPAN class=VC>Давид 
+      чёток.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>Гораздо слабее было 
+      напрашивающееся<BR></SPAN><A id=l736 
+      href="javascript:c(0,736)">38...Rb1+</A> <SPAN class=VC>ввиду следующих 
+      вариантов<BR></SPAN><A id=l737 href="javascript:c(0,737)">39.Kh2</A> <A 
+      id=l738 href="javascript:c(0,738)">Qf4+</A> <A id=l739 
+      href="javascript:c(0,739)">40.g3</A> <A id=l740 
+      href="javascript:c(0,740)">Qxg5</A> <A id=l741 
+      href="javascript:c(0,741)">41.Rxf8+</A> <A id=l742 
+      href="javascript:c(0,742)">Kxf8</A> <SPAN class=VC>Чёрные угрожают 
+      «страшным» шахом с линии «h», однако...<BR></SPAN><A id=l743 
+      href="javascript:c(0,743)">42.Kg2!</A> <SPAN class=VC>и, несмотря на две 
+      (!) лишние пешки, спасаться предстоит чёрным, ибо угрозы белых очень 
+      сильны, например, они желают сыграть сейчас Qa2+-.</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l745 
+      href="javascript:c(0,745)">39.Qa2</A> <A id=l747 
+      href="javascript:c(0,747)">Rb1+!</A> <SPAN class=VC>На флажке мимо такого 
+      обычно не проходят. Вечный шах скоро появится на 
+    сцене.<BR></SPAN></SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1>[<SPAN class=VC>А вот выглядящее весьма 
+      заманчивым<BR></SPAN><A id=l749 href="javascript:c(0,749)">39...Rc4!?</A> 
+      <SPAN class=VC>таковым вовсе не является из-за<BR></SPAN><A id=l751 
+      href="javascript:c(0,751)">40.Rxf8+!</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>после</SPAN> <A id=l753 
+      href="javascript:c(0,753)">40.g3</A> <SPAN class=VC>,в конце концов, 
+      получится очередной вечный шах, однако стремится к нему придётся уже белым 
+      -<BR></SPAN><A id=l754 href="javascript:c(0,754)">40...Qxe4</A> <A id=l755 
+      href="javascript:c(0,755)">41.Rxf8+</A> <A id=l756 
+      href="javascript:c(0,756)">Kxf8</A> <A id=l757 
+      href="javascript:c(0,757)">42.Kh2<IMG height=12 alt="Only possible move" 
+      src="../european_club_cup_2007_1_game1.files/infeinzigerzug.gif" width=16 
+      align=bottom border=0></A> <A id=l758 href="javascript:c(0,758)">Rd4</A> 
+      <A id=l759 href="javascript:c(0,759)">43.Rc7<IMG height=12 
+      alt="Only possible move" 
+      src="../european_club_cup_2007_1_game1.files/infeinzigerzug.gif" width=16 
+      align=bottom border=0></A> <A id=l760 href="javascript:c(0,760)"><IMG 
+      height=11 alt="With the idea" 
+      src="../european_club_cup_2007_1_game1.files/infmitderidee.gif" width=16 
+      align=bottom border=0>Rd1</A> <A id=l761 
+      href="javascript:c(0,761)">44.f3!?</A> <SPAN class=VC>И «рыбиться» можно 
+      красиво!<BR></SPAN><A id=l763 href="javascript:c(0,763)">44...Qd5</A> (<A 
+      id=l765 href="javascript:c(0,765)">44...Qxf3</A> <A id=l766 
+      href="javascript:c(0,766)">45.Rc8+</A> <A id=l767 
+      href="javascript:c(0,767)">Kf7</A> <A id=l768 
+      href="javascript:c(0,768)">46.Rc7+</A> <A id=l769 
+      href="javascript:c(0,769)">Kg6</A> <A id=l770 
+      href="javascript:c(0,770)">47.Qxe6+</A> <A id=l771 
+      href="javascript:c(0,771)">Kh5</A> <A id=l772 
+      href="javascript:c(0,772)">48.Qh3+</A> <A id=l773 
+      href="javascript:c(0,773)">Kg6</A> <A id=l774 
+      href="javascript:c(0,774)">49.Qe6+</A> <SPAN class=VC>- снова 
+      ничья!</SPAN>) <A id=l776 href="javascript:c(0,776)">45.Qa3+</A> <A 
+      id=l777 href="javascript:c(0,777)">Kg8</A> <A id=l778 
+      href="javascript:c(0,778)">46.Rxg7+!</A> <A id=l779 
+      href="javascript:c(0,779)">Kxg7</A> <A id=l780 
+      href="javascript:c(0,780)">47.Qe7+</A> <A id=l781 
+      href="javascript:c(0,781)">Kg8</A> <A id=l782 
+      href="javascript:c(0,782)">48.Qe8+</A> <A id=l783 
+      href="javascript:c(0,783)">Kg7</A> <A id=l784 
+      href="javascript:c(0,784)">49.Qe7+<IMG height=9 alt== 
+      src="../european_club_cup_2007_1_game1.files/infgleich.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l786 
+      href="javascript:c(0,786)">40...Qxf8</A> <A id=l787 
+      href="javascript:c(0,787)">41.g3!</A> <A id=l789 
+      href="javascript:c(0,789)">Kh8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>но не</SPAN> <A id=l791 
+      href="javascript:c(0,791)">41...Rxe4??</A> <A id=l792 
+      href="javascript:c(0,792)">42.Qxe6+</A> <A id=l793 
+      href="javascript:c(0,793)">Kh8</A> <A id=l794 
+      href="javascript:c(0,794)">43.Re7<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l796 
+      href="javascript:c(0,796)">42.Qa5</A> <A id=l798 
+      href="javascript:c(0,798)">Rc8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>весьма неприятен ферзевый эндшпиль, 
+      возникающий после<BR></SPAN><A id=l800 
+      href="javascript:c(0,800)">42...Rd4</A> <A id=l801 
+      href="javascript:c(0,801)">43.Qxb5</A> <A id=l803 
+      href="javascript:c(0,803)">Rxd7</A> (<SPAN class=VC>неуютно чёрным и 
+      после<BR></SPAN><A id=l805 href="javascript:c(0,805)">43...Rxe4</A> <A 
+      id=l806 href="javascript:c(0,806)">44.Rb7!</A> <A id=l807 
+      href="javascript:c(0,807)">Rd4</A> <A id=l808 
+      href="javascript:c(0,808)">45.Qxe5</A> <A id=l809 
+      href="javascript:c(0,809)">Rd8</A> <A id=l810 
+      href="javascript:c(0,810)">46.Qxe6</A> <SPAN class=VC>и т.д.</SPAN>) <A 
+      id=l812 href="javascript:c(0,812)">44.Qxd7</A> <A id=l813 
+      href="javascript:c(0,813)">Qg8</A> <A id=l814 
+      href="javascript:c(0,814)">45.Kg2</A> <SPAN class=VC>, что-то, 
+      напоминающее цугцванг...</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l816 
+      href="javascript:c(0,816)">43.Qxb5</A> <SPAN class=VC>с идеей 
+      на<BR></SPAN><A id=l817 href="javascript:c(0,817)">43...Qf3</A> <SPAN 
+      class=VC>слегка «пофеерить»<BR></SPAN><A id=l818 
+      href="javascript:c(0,818)">44.Qc5!</A> <A id=l820 
+      href="javascript:c(0,820)">Rb8</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<SPAN class=VC>если</SPAN> <A id=l822 
+      href="javascript:c(0,822)">44...Rf8</A> <SPAN class=VC>, то</SPAN> <A 
+      id=l823 href="javascript:c(0,823)">45.Rd3!</A> <A id=l825 
+      href="javascript:c(0,825)">Qf7</A> (<A id=l827 
+      href="javascript:c(0,827)">45...Qxd3??</A> <A id=l828 
+      href="javascript:c(0,828)">46.Qxf8#</A>) <A id=l830 
+      href="javascript:c(0,830)">46.Rd2</A> <SPAN class=VC>, и бьём пешку на 
+      е5</SPAN>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l832 
+      href="javascript:c(0,832)">45.Qb6!</A> <A id=l833 
+      href="javascript:c(0,833)">Rg8</A> <A id=l834 
+      href="javascript:c(0,834)">46.Rd8</A> <A id=l836 
+      href="javascript:c(0,836)">Qg4</A> </SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD width=10></TD>
+    <TD><SPAN class=V2>(<A id=l838 href="javascript:c(0,838)">46...Qxe4??</A> 
+      <A id=l839 href="javascript:c(0,839)">47.Qb8<IMG height=10 alt="+ -" 
+      src="../european_club_cup_2007_1_game1.files/infplusminus.gif" width=16 
+      align=bottom border=0></A>)</SPAN></TD></TR>
+  <TR>
+    <TD width=10></TD>
+    <TD colSpan=2><SPAN class=V1><A id=l841 
+      href="javascript:c(0,841)">47.Rxg8+</A> <A id=l842 
+      href="javascript:c(0,842)">Kxg8</A> <A id=l843 
+      href="javascript:c(0,843)">48.Qd8+</A> <A id=l844 
+      href="javascript:c(0,844)">Kf7</A> <A id=l845 
+      href="javascript:c(0,845)">49.Qc7+</A> <A id=l846 
+      href="javascript:c(0,846)">Kg6</A> <A id=l847 
+      href="javascript:c(0,847)">50.Qxe5</A> <SPAN class=VC>и т.д. После хода в 
+      партии даже софийские правила не помеха фиксации нужного 
+      результата.</SPAN>]</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=3><SPAN class=V0><A id=l849 
+      href="javascript:c(0,849)">40.Qxb1</A> <A id=l850 
+      href="javascript:c(0,850)">Qxf2+</A> <A id=l851 
+      href="javascript:c(0,851)">41.Kh2</A> <A id=l852 
+      href="javascript:c(0,852)">Qh4+</A> <A id=l853 
+      href="javascript:c(0,853)">42.Kg1</A> <A id=l854 
+      href="javascript:c(0,854)">Qf2+</A> <A id=l855 
+      href="javascript:c(0,855)">43.Kh2</A> <A id=l856 
+      href="javascript:c(0,856)">Qh4+</A> <A id=l857 
+      href="javascript:c(0,857)">44.Kg1</A> <A id=l858 
+      href="javascript:c(0,858)">Qf2+</A> <A id=l859 
+      href="javascript:c(0,859)">45.Kh2</A> <A id=l860 
+      href="javascript:c(0,860)">Qh4+</A> <SPAN class=VC>Интересная, несмотря на 
+      свою «ничейность», партия!<BR></SPAN></SPAN><BR><BR><SPAN 
+      class=VH>1/2-1/2</SPAN></TD></TR></TBODY></TABLE></TD></TR></TABLE><BR><A 
+href="http://online.crestbook.com/viewer/2007/european_club_cup_2007_1_game.pgn"><IMG 
+alt=PGN... src="../european_club_cup_2007_1_game1.files/pgn.gif"></A> 
+</FONT></P><FONT size=-2><A href="http://www.mailchess.de/pgntojse.html" 
+target=_blank>Created with PGNtoJS</A></FONT> </BODY></HTML>
